@@ -210,6 +210,13 @@ img {
 .hero {
   background: var(--color-fon-site);
   text-align: center;
+  width: 1600px;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/bg-fon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: auto;
+  margin-left: auto;
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -374,14 +381,21 @@ img {
 
 .name-text {
   margin: 0;
+  margin-bottom: 16px;
   font-size: 16px;
   text-align: center;
   line-height: 1.9;
   color: #757575;
 }
 
+/* .team-social {
+  display: flex;
+  justify-content: center;
+  background-color: tomato;
+} */
+
 .container-name {
-  padding: 30px 0;
+  padding: 30px 32px;
 }
 
 /* Footer section */
