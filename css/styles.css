@@ -412,6 +412,24 @@ img {
   justify-content: center;
 }
 
+.team-icon {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  margin-right: 10px;
+  background: var(--btn-white-color);
+  border-radius: 50%;
+}
+
+.team-icon:hover {
+  background: var(--transitional-text-color);
+}
+
+.team-icon:nth-child(4n) {
+  margin-right: 0;
+}
+
 .container-name {
   padding: 30px 32px;
 }
@@ -480,7 +498,6 @@ padding-bottom: 50px;
 .footer-item {
   margin-right: auto;
   margin-left: auto;
-  /* margin-top: 0; */
   background-color: var(--color-fon-site);
   width: 1600px;
 }
@@ -546,6 +563,20 @@ padding-bottom: 50px;
   margin-top: 20px;
 }
 
-.color-fill svg {
+/* .color-contact { (перенесу в шапку к контактам)
   fill: #000000;
+} */
+
+.fill-fotter {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+background: rgba(255, 255, 255, 0.1);
+border-radius: 50%;
+justify-content: center;
+}
+
+.fill-fotter:hover {
+background: var(--transitional-text-color);
 }
