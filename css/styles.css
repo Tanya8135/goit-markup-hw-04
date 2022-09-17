@@ -35,7 +35,6 @@ img {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  
 }
 
 .header-border {
@@ -55,6 +54,10 @@ img {
 
 .logo span {
   color: var(--transitional-text-color);
+}
+
+.logo:focus {
+  outline: none;
 }
 
 .list {
@@ -123,6 +126,7 @@ img {
 .site-nav .nav-link:hover,
 .site-nav .nav-link:focus {
   color: var(--transitional-text-color);
+  outline: none;
 }
 
 .site-nav .nav-link.current {
@@ -176,6 +180,7 @@ img {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  outline: none;
 }
 
 .about-cards {
@@ -264,6 +269,10 @@ img {
   border: none;
   min-width: 216px;
   /* cursor: pointer; */
+}
+
+.hero-btn {
+  outline: none;
 }
 
 /* About section */
@@ -439,6 +448,12 @@ img {
   fill: var(--btn-white-color);
 }
 
+.team-icon:focus {
+  background: var(--transitional-text-color);
+  fill: var(--btn-white-color);
+  outline: none;
+}
+
 .social-item {
   margin-right: 10px;
 }
@@ -455,12 +470,9 @@ img {
 
 .client-container {
   display: flex;
-  justify-content: center;
-  align-items: baseline;
   width: 170px;
   height: 92px;
 }
-
 
 .clients-list {
   display: flex;
@@ -488,6 +500,12 @@ img {
 .client-link:hover {
   border: 1px solid var(--transitional-text-color);
   fill: var(--transitional-text-color);
+}
+
+.client-link:focus {
+  border: 1px solid var(--transitional-text-color);
+  fill: var(--transitional-text-color);
+  outline: none;
 }
 
 .clients-title {
@@ -565,6 +583,7 @@ img {
 .address-list:focus {
   color: var(--transitional-text-color);
   border-radius: 4px;
+  outline: none;
 }
 
 .contacts {
@@ -603,6 +622,11 @@ img {
   fill: var(--transitional-text-color);
 }
 
+.color-contact:focus {
+  fill: var(--transitional-text-color);
+  outline: none;
+}
+
 .fill-fotter {
   display: flex;
   width: 44px;
@@ -622,4 +646,9 @@ img {
 
 .fill-fotter:hover {
   background: var(--transitional-text-color);
+}
+
+.fill-fotter:focus {
+  background: var(--transitional-text-color);
+  outline: none;
 }
