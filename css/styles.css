@@ -245,7 +245,7 @@ img {
 .hero {
   background: var(--color-fon-site);
   text-align: center;
-  width: 1600px;
+  max-width: 1600px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/bg-fon.png);
   background-repeat: no-repeat;
@@ -381,7 +381,7 @@ img {
   background: var(--btn-background-filter);
   margin-right: auto;
   margin-left: auto;
-  width: 1600px;
+  max-width: 1200px;
 }
 
 .team {
@@ -506,7 +506,6 @@ img {
   border-radius: 4px;
   justify-content: center;
   fill: var(--border-icon-logo);
-  padding: 16px 32px;
 }
 
 .client-link:hover {
@@ -550,7 +549,6 @@ img {
   margin-right: auto;
   margin-left: auto;
   background-color: var(--color-fon-site);
-  width: 1600px;
 }
 
 .container-footer {
