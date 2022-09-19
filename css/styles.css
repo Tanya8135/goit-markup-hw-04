@@ -455,11 +455,7 @@ img {
   fill: var(--border-icon-logo);
 }
 
-.team-icon:hover {
-  background: var(--transitional-text-color);
-  fill: var(--btn-white-color);
-}
-
+.team-icon:hover,
 .team-icon:focus {
   background: var(--transitional-text-color);
   fill: var(--btn-white-color);
@@ -508,11 +504,7 @@ img {
   fill: var(--border-icon-logo);
 }
 
-.client-link:hover {
-  border: 1px solid var(--transitional-text-color);
-  fill: var(--transitional-text-color);
-}
-
+.client-link:hover,
 .client-link:focus {
   border: 1px solid var(--transitional-text-color);
   fill: var(--transitional-text-color);
@@ -654,11 +646,13 @@ img {
   margin-right: 0;
 }
 
-.fill-fotter:hover {
-  background: var(--transitional-text-color);
-}
-
+.fill-fotter:hover,
 .fill-fotter:focus {
   background: var(--transitional-text-color);
   outline: none;
 }
+
+/* .fill-fotter:focus {
+  background: var(--transitional-text-color);
+  outline: none;
+} */
